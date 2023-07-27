@@ -1,0 +1,465 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size:85%;
+}
+
+body {
+  font-family: 'Baskervville', serif;
+}
+
+.page-header{
+    display:flex;
+    flex-direction: row;
+   justify-content:space-between;
+    width:100%;
+    height:75px;
+    margin:0 2px 15px;
+    position: fixed;
+    top:0;
+    bottom:0;
+    background-color: gray;
+}
+
+
+img{
+    width:18rem;
+    height:30px;
+    margin-left: 25px;
+
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display:inline-block;
+    margin:6px 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+a:hover{
+  color:rgb(250, 246, 246);
+  background-color:black ;
+}
+
+a:link{
+  color:whitesmoke;
+}
+
+main{
+  margin-top:100px;
+}
+
+.sub-header{
+    text-align: center;
+    margin-top:15px;
+    padding-top:5px;
+}
+
+h1 {
+  font-family: sans-serif, Arial;
+  font-size: 26px;
+  margin:5px auto;
+}
+
+#email{
+  margin: 10px auto;
+  height:28px;
+  width:260px;
+  background-color:white;
+  border:1px solid gray;
+}
+
+#submit{
+  height:35px;
+  width:150px;
+  border: none;
+  background-color: #f7d206ce;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.page-details{
+  margin:50px 150px;
+  text-align: left;
+  
+
+}
+
+.icons, .page-text{
+  display: inline-block;
+  }
+
+.icons{
+  font-size: 45px;
+  color:rgb(248, 164, 8);
+  margin-right:60px;
+}
+
+.page-text{
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  font-weight:bolder;
+  margin-left:10px;
+}
+
+.page-text:first-of-type{
+  margin-left:35px;
+}
+
+.page-subtext{
+  font-family: 'Arial', sans-serif;
+  margin-left:130px ;
+  margin-bottom: 25px;
+  line-height: 20px;
+}
+
+ #video{
+  width: 500px;
+  height:300px;
+  display:block;
+  margin:auto;
+  border: solid grey;
+}
+
+.page-packages{
+  display:flex;
+  flex-direction:row;
+  text-align: center;
+  justify-content: center;
+  margin:30px auto ;
+}
+.custom-card{
+  border:1px solid;
+  width:300px;
+  height:270px;
+  margin:10px;
+  line-height: 30px;
+}
+
+.card-header{
+  background-color: grey;
+  margin-bottom:10px;
+  height:10%;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.card-body{
+  height:70%;
+}
+
+.price{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-footer{
+  height:10%;
+  margin: 2px 50px;
+ background-color:#f7d206ce ;
+ font-weight: bold;
+ 
+}
+
+.page-footer{
+  background-color: grey;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding:0 70px;
+}
+
+.footer-lists{
+  display: inline-block;
+  list-style-type: none;
+  margin:10px;
+}
+
+.copyright{
+  margin-top: 10px;
+}
+
+
+/*Extra small devices (phones, 600px and down)*/
+ @media  only screen and (max-width:600px) {
+
+  .page-header{
+    margin:0 2px 15px;
+    padding:20px 5px;
+
+}
+  img{
+    width:10rem;
+    height:20px;
+    margin-right: 5px;
+
+}
+
+nav > ul > li {
+    margin:6px  6px;
+    font-size: 12px;
+    
+}
+
+.sub-header{
+  text-align: center;
+  font-size: 12px;
+}
+
+h1{
+  font-size: 20px;
+}
+
+.page-details{
+  margin:10px;
+  text-align: left;
+  font-size:18px;
+}
+
+.icons{
+  font-size: 30px;
+  margin-right:40px;
+  margin-left:15px ;
+}
+
+.page-text:first-of-type{
+  margin-left:25px;
+}
+.page-subtext{
+  margin-left:107px ;
+}
+  
+  #video{
+    width: 200px;
+    height:100px;
+    margin:40px 100px;
+
+  }
+
+  .page-packages{
+    flex-direction:column;
+    margin:10px 5px ;
+  }
+
+  .custom-card{
+    width:270px;
+    height:250px;
+    margin:20px 50px;
+    line-height: 30px;
+  }
+
+  .page-footer{
+      padding-left: 30px;
+  }
+
+  .footer-lists{
+    display:inline-block;
+    list-style-type: none;
+    margin:9px
+  }
+
+  .copyright{
+    margin: 10px auto;
+  }
+ }
+
+ /*small devices (portraits tablets, and large phones, 600px and up)*/
+ @media  only screen and (min-width:600px) {
+  .page-details{
+    margin:20px 30px;
+    text-align: left;
+  }
+  
+  #video{
+    width: 300px;
+    height:200px;
+    margin:70px 170px;
+  }
+}
+ /*medium devices (landscpaes, tablets, 768px and up)*/
+ @media  only screen and (min-width:768px) {
+  .page-header{
+    margin:0px 15px 15px;
+    padding:10px;
+    justify-content: flex-start;
+    height:80px;
+}
+
+nav > ul > li {
+  margin:6px  15px;
+  padding-right: 60px;
+  font-size: 16px;
+  
+}
+
+  .page-details{
+    margin:30px 70px;
+    text-align: left;
+  }
+
+  .page-subtext{
+    width:70%;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  #video{
+    width: 400px;
+    height:250px;
+    margin:70px 200px;
+  }
+
+  .page-packages{
+    flex-direction:column;
+    margin:10px 70px ;
+  }
+
+  .custom-card{
+    width:400px;
+    height:300px;
+    margin:20px 120px;
+    line-height: 30px;
+  }
+
+  .page-footer{
+    justify-content: space-between;
+    padding:0 70px;
+  }
+
+  .copyright{
+    margin: 10px auto;
+    padding-right:50px;
+  }
+}
+ /*large devices (laptops/desktops, 992px and up)*/
+ @media  only screen and (min-width:992px) {
+  
+  .page-header{
+    margin:0 15px 15px;
+    padding:20px;
+    justify-content: flex-start;
+
+}
+
+nav > ul > li {
+  margin:6px  2px;
+  padding-right: 40px;
+  padding-left: 30px;
+  font-size: 16px;
+  
+}
+  
+  .page-details{
+    margin:50px 50px;
+    text-align: left;
+    padding:5px 25px;
+  }
+
+  .sub-header{
+    margin-right:200px;
+}
+
+  .page-text:first-of-type{
+    margin-left:32px;
+  }
+  .page-subtext{
+    margin-left:130px ;
+    padding-right: 15px;
+  }
+  
+  #video{
+    width: 500px;
+    height:300px;
+  }
+
+  .page-footer{
+    justify-content: space-between;
+    padding:0 70px;
+  }
+
+  .copyright{
+    margin: 10px auto;
+    padding-right:130px;
+  }
+}
+ /*extra large devices (laptops/desktops, 1200px and up)*/
+ @media  only screen and (min-width:1200px) {
+  .page-header{
+    margin:0 15px 15px;
+    padding:20px;
+    justify-content: space-between;
+
+}
+
+nav > ul > li {
+  margin:6px  2px;
+  padding-right: 40px;
+  padding-left: 30px;
+  font-size: 16px;
+  
+}
+
+  .sub-header{
+    margin-right: 2rem;
+
+  }
+
+  .page-details{
+    margin:50px 70px;
+    text-align: left;
+    padding:5px 30px;
+  }
+
+  .page-text:first-of-type{
+    margin-left:32px;
+  }
+  .page-subtext{
+    margin-left:130px ;
+    width:80%;
+    font-size: 14px;
+  }
+
+  #video{
+    width: 500px;
+    height:300px;
+    display:block;
+    margin:auto;
+
+  }
+
+  .page-packages{
+    flex-direction:row;
+  }
+
+  .custom-card{
+    width:450px;
+    height:300px;
+    margin:10px;
+   
+  }
+  .page-footer{
+    justify-content: space-evenly;
+    padding:0 70px;
+  }
+
+  .copyright{
+    margin: 10px auto;
+    padding-right:80px;
+  }
+
+  
+}
