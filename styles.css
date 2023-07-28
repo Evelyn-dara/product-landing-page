@@ -441,16 +441,6 @@ nav > ul > li {
     width: 500px;
     height:300px;
   }
-
-  .page-footer{
-    justify-content: space-between;
-    padding:0 70px;
-  }
-
-  .copyright{
-    margin: 10px auto;
-    padding-right:130px;
-  }
 }
  /*extra large devices (laptops/desktops, 1200px and up)*/
  @media  only screen and (min-width:1200px) {
@@ -507,15 +497,4 @@ nav > ul > li {
     margin:10px;
    
   }
-  .page-footer{
-    justify-content: space-evenly;
-    padding:0 70px;
-  }
-
-  .copyright{
-    margin: 10px auto;
-    padding-right:80px;
-  }
-
-  
-}
+ }
