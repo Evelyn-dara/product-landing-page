@@ -25,7 +25,6 @@ body {
     position: fixed;
     top:0;
     background-color: #eee;
-    color: #000;
 }
 
 .logo {
@@ -44,7 +43,7 @@ body {
 }
 
 nav {
-  font-weight: 400;
+  font-weight:400;
 }
 
 nav > ul {
@@ -64,18 +63,14 @@ nav > ul > li {
     
 }
 
-a{
+nav > ul > li > a{
     text-decoration: none;
     color:#000;
 }
 
 a:hover{
   color:rgb(250, 246, 246);
-  background-color:black ;
-}
-
-a:link{
-  color:whitesmoke;
+  background-color:rgb(117, 114, 114) ;
 }
 
 main{
@@ -254,20 +249,24 @@ h1{
 .page-details{
   margin:10px;
   text-align: left;
-  font-size:18px;
+  font-size:14px;
 }
 
 .icons{
-  font-size: 30px;
+  font-size: 25px;
   margin-right:40px;
   margin-left:15px ;
 }
 
+.page-text{
+  font-size: 20px;
+}
 .page-text:first-of-type{
   margin-left:25px;
 }
 .page-subtext{
-  margin-left:107px ;
+  margin-left:102px ;
+  font-size: 12px;
 }
   
   #video{
@@ -328,6 +327,34 @@ h1{
     margin-top: 120px;
   }
 }
+
+h1{
+  font-size: 20px;
+}
+
+.page-details{
+  margin:10px;
+  text-align: left;
+  font-size:14px;
+}
+
+.icons{
+  font-size: 25px;
+  margin-right:40px;
+  margin-left:15px ;
+}
+
+.page-text{
+  font-size: 20px;
+}
+.page-text:first-of-type{
+  margin-left:25px;
+}
+.page-subtext{
+  margin-left:102px ;
+  font-size: 12px;
+}
+
 
 }
 
