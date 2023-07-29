@@ -198,13 +198,13 @@ h1 {
   height:10%;
   margin: 2px 50px;
   background-color:#f1c40f ;
-  color:#000;
   font-weight:400;
  
 }
 
 a{
   text-decoration:none;
+  color:#000;
 }
 
 .card-footer > a:hover{
